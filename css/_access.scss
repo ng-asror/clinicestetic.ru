@@ -1,0 +1,76 @@
+#access {
+    width: 100%;
+    max-width: 929px;
+    height: 46px;
+    margin-inline: auto;
+    padding-inline: 25px;
+    background: url('../img/access.png');
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.access-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.a-fontsize {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 4px;
+
+    dd {
+        cursor: pointer;
+        font-family: sans-serif;
+        padding-inline: 3px;
+        line-height: 1;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 3px;
+
+        &:nth-child(3) {
+            font-size: 25px;
+        }
+
+        &:last-child {
+            font-size: 27px;
+        }
+
+        &.active,
+        &:hover {
+            background-color: #000;
+            color: #fff;
+            border-radius: 2px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                background-color: #000;
+                width: 10px;
+                height: 5px;
+                clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                top: calc(100% + 2px);
+                left: 50%;
+                right: 50%;
+                transform: translate(-50%, -50%) rotate(180deg);
+            }
+        }
+
+    }
+}
+
+.a-colors {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 4px;
+}
+
+.popped {
+    display: none;
+}

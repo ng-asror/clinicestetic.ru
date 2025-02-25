@@ -1,12 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>clinicestetic.ru</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+
+<body class="imageson color1 sans-serif spacing-small fontsize-small">
+    <!-- access start -->
+    <section id="access">
+        <div class="access-wrapper">
+            <dl class="a-fontsize">
+                <dt>Размер шрифта:</dt>
+                <dd rel="fontsize-small" class="a-fontsize-small">A</dd>
+                <dd rel="fontsize-normal" class="a-fontsize-normal">A</dd>
+                <dd rel="fontsize-big" class="a-fontsize-big active">A</dd>
+            </dl>
+            <dl class="a-colors">
+                <dt>Цвета сайта:</dt>
+                <dd rel="color1" class="a-color1">Ц</dd>
+                <dd rel="color2" class="a-color2">Ц</dd>
+                <dd rel="color3" class="a-color3">Ц</dd>
+            </dl>
+            <dl class="a-images">
+                <dt>Изображения</dt>
+                <dd><a rel="imagesoff" href="#" class="a-imagesoff"></a></dd>
+            </dl>
+            <p class="a-search"><a href="/search">Поиск</a></p>
+            <p class="a-settings"><a href="#">Настройки</a></p>
+        </div>
+        <div class="popped">
+            <h2>Настройки шрифта:</h2>
+            <p class="choose-font-family">Выберите шрифт <a class="font-family" id="sans-serif" rel="sans-serif"
+                    href="#">Arial</a> <a class="font-family" rel="serif" id="serif" href="#">Times New Roman</a></p>
+            <p class="choose-letter-spacing">Интервал между буквами <span>(Кернинг)</span>: <a class="letter-spacing"
+                    id="spacing-small" rel="spacing-small" href="#">Стандартный</a> <a rel="spacing-normal"
+                    class="letter-spacing" id="spacing-normal" href="#">Средний</a> <a rel="spacing-big"
+                    class="letter-spacing" id="spacing-big" href="#">Большой</a></p>
+            <h2>Выбор цветовой схемы:</h2>
+            <ul class="choose-colors">
+                <li id="color1"><a rel="color1" href="#"><span>—</span>Черным по белому</a></li>
+                <li id="color2"><a rel="color2" href="#"><span>—</span>Белым по черному</a></li>
+                <li id="color3"><a rel="color3" href="#"><span>—</span>Темно-синим по голубому</a></li>
+                <li id="color4"><a rel="color4" href="#"><span>—</span>Коричневым по бежевому</a></li>
+                <li id="color5"><a rel="color5" href="#"><span>—</span>Зеленым по темно-коричневому</a></li>
+            </ul>
+            <p class="saveit"><a class="closepopped" href="#"><span>Закрыть панель</span></a> <a class="default"
+                    href="#"><span>Вернуть стандартные настройки</span></a> </p>
+        </div>
+    </section>
+    <!-- access end -->
+    <div class="container">
+        <!-- header start -->
+        <header>
+            <h1>ESTETIC CLINIC</h1>
+            <h3>Доверьте свою красоту нашей клинике пластической хирургии</h3>
+        </header>
+        <!-- header end -->
+        <!-- navigate start -->
+        <div class="navigate">
+            <nav class="navbar">
+                <li page="home" class="here">Главная</li>
+                <li page="services">Наши услуги</li>
+                <li page="prices">Цены</li>
+                <li page="doctors">Врачи</li>
+                <li page="works">Наши работы</li>
+            </nav>
+            <div class="navigate__bottom">
+                <div class="subnav">
+                    <li class="here">Главная </li>
+                    <li>Главная </li>
+                    <li>Главная </li>
+                    <li>Главная </li>
+                    <li>Главная </li>
+                </div>
+                <a href="#" class="switch_version">
+                    <img src="img/eye.svg" alt="eye" width="20" height="20">
+                    <span>Обычная версия сайта</span></a>
+            </div>
+        </div>
+        <!-- navigate end -->
+        <div class="page">
+            <div class="hentrylist">
+                <div class="hentry">
+                    <h1>ESTETIC CLINIC</h1>
+                    <h2>ЭТО СОВРЕМЕННЫЙ ЦЕНТР ПЛАСТИЧЕСКОЙ ХИРУРГИИ В ГОРОДЕ КРАСНОДАР</h2>
+                    <p>Добро пожаловать в Estetic Clinic - ведущую клинику пластической хирургии в городе Краснодар.
+                        Наша миссия - помочь вам обрести желаемый внешний облик и повысить уверенность в себе через
+                        высококачественные хирургические и нехирургические процедуры.
+                        В Estetic Clinic вы найдете команду опытных специалистов, готовых предложить индивидуальный
+                        подход к каждому пациенту и помочь вам достичь ваших целей.
+                        Наша клиника обеспечивает высокий уровень сервиса, безопасные процедуры и персонализированный
+                        уход для каждого пациента</p>
+                    <a href="#">О КЛИНИКЕ</a>
+                </div>
+                <div class="hentry">
+                    <h1>ОПЕРАЦИИ</h1>
+                    <div class="hentry__item">
+                        <h3>Хирургические процедуры для коррекции фигуры:</h3>
+                        <ul>
+                            <li>Абдоминопластика</li>
+                            <li>Брахиопластика</li>
+                            <li>Маммопластика</li>
+                            <li>Лабиопластика</li>
+                            <li>Феморопластика</li>
+                        </ul>
+                    </div>
+                    <div class="hentry__item">
+                        <h3>Хирургические процедуры для коррекции лица и глаз:</h3>
+                        <ul>
+                            <li>Ринопластика</li>
+                            <li>Подтяжка лица</li>
+                            <li>Отопластика</li>
+                            <li>Блефаропластика</li>
+                        </ul>
+                    </div>
+                    <div class="hentry__item">
+                        <h3>Процедуры липосакции и объемного моделирования:</h3>
+                        <ul>
+                            <li>Липосакции</li>
+                            <li>Липофилинг</li>
+                            <li>Липомоделирование</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hentry">
+                    <h1>CПЕЦИАЛЬНАЯ ЦЕНА НА РИНОПЛАСТИКУ</h1>
+                    <h2>Осуществите свою мечту о красивой внешности
+                        с эксклюзивной скидкой на ринопластику в Estetic Clinic!</h2>
+                    <h4>АКЦИЯ НА РИНОПЛАСТИКУ: <i>320 000₽</i></h4>
+                    <p>В честь открытия нового филиала предоставляется скидка на операцию по ринопластике</p>
+                </div>
+                <div class="hentry">
+                    <div class="hentry__item">
+                        <h1>Оставьте заявку</h1>
+                        <h3>Заполните форму заявки и мы позаботимся о вашей красоте!</h3>
+                    </div>
+                    <div class="hentry__item">
+                        <label for="fc1">Ваше Имя Фамилия</label>
+                        <input type="text" placeholder="Имя Фамилия" id="fc1">
+                    </div>
+                    <div class="hentry__item">
+                        <label for="fc1">Ваш номер телефона</label>
+                        <input type="text" placeholder="+7 (999) 999 99 99" id="fc1">
+                    </div>
+                </div>
+            </div>
+            <div class="navigate">
+                <nav class="navbar">
+                </nav>
+                <div class="navigate__bottom">
+                    <div class="subnav">
+                        <li class="here">Home</li>
+                        <li>Home</li>
+                        <li>Home</li>
+                        <li>Home</li>
+                        <li>Home</li>
+                    </div>
+                    <a href="#" class="switch_version">
+                        <img src="img/eye.svg" alt="eye" width="20" height="20">
+                        <span>Обычная версия сайта</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/app.js"></script>
 </body>
+
 </html>
